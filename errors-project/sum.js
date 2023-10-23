@@ -8,3 +8,4 @@ function sum(a, b) {
 
 sum(1, 2);
 sum(1 + "aa");
+sum(1, "aa");

@@ -18,6 +18,4 @@ jobs:
         working-directory: errors-project
         run: npm ci
       - name: Typecheck
-        uses: andoshin11/typescript-error-reporter-action@v1.0.2
-        with:
-          workingDirectory: errors-project
+        run: npm check-types

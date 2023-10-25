@@ -1,3 +1,64 @@
+// Hello JSDOC People!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const SPEAKER = {
+    name: "Matsu",
+    title: "Senior Software Developer",
+    workplace: { name: "Simplr", url: "https://simplr.fi/" },
+    github: { name: "Matsuuu", url: "https://github.com/Matsuuu" }, // Pls follow 👉 👈
+
+    whoAmI() {
+        return [
+            "Avid No Build JS enthusiast",
+            "Web Platform hype man",
+            "HomeBrewer" // Malts + Yeast, Not 'brew install'
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,9 +239,6 @@ console.log(padLeft("@@@@@", toPad));
 // --------------------
 
 // node fs pls
-
-
-
 
 
 
